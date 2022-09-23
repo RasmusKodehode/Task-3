@@ -1,0 +1,59 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.image1, .image2, .image3, .image4 {
+    position: relative;
+    opacity: 1.0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.image1 {
+    background-image: url("https://i.pinimg.com/originals/5b/62/79/5b627981b5473e2b81cc8d0210520c0c.jpg");
+    min-height: 600px;
+}
+
+.image2 {
+    background-image: url("https://i.pinimg.com/originals/d8/30/c4/d830c4515087e19bf1a4423540585e26.jpg");
+    min-height: 600px;
+}
+
+.image3 {
+    background-image: url("http://www.mulsannescorner.com/ToyotaGT-OneMonterreyHistorics2005-MS6.jpg");
+    min-height: 600px;
+}
+
+.image4 {
+    background-image: url("https://i.pinimg.com/originals/6a/63/f0/6a63f0024af1b4151bba709e694f6526.jpg");
+    min-height: 600px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+    background-color: grey;
+    color: whitesmoke;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+}
+
+span {
+    background-color: lightgrey;
+    color: grey;
+    padding: 20px;
+}
